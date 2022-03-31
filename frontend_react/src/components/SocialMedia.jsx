@@ -3,30 +3,29 @@ import { BsTwitter, BsInstagram,BsLinkedin,BsGithub } from 'react-icons/bs';
 import {Link} from 'react-router-dom';
 const SocialMedia = () => (
   <div className="app__social">
-    <Link to='https://twitter.com/Rahulanilnayak1'>
-      <div>
-        <BsTwitter />
-      </div>
-    </Link>
+      <a href="https://twitter.com/Rahulanilnayak1" target='_blank'>
+        <div>
+          <BsTwitter />
+        </div>
+      </a>
 
-    <Link to='https://www.linkedin.com/in/rahul-anil-nayak-039436166/'>
-      <div>
-        <BsLinkedin />
-      </div>
-    </Link>
+      <a href="https://www.linkedin.com/in/rahul-anil-nayak-039436166/" target='_blank'>
+        <div>
+          <BsLinkedin />
+        </div>
+      </a>
 
-    <Link to='https://github.com/whorahulnayak'>
-      <div>
-        <BsGithub />
-      </div>
-    </Link>
+      <a href="https://github.com/whorahulnayak" target='_blank'>
+        <div>
+          <BsGithub />
+        </div>
+      </a>
 
-    
-    <Link to='https://www.instagram.com/rahulxnayak/'>
-      <div>
-        <BsInstagram />
-      </div>
-    </Link>
+      <a href="https://www.instagram.com/rahulxnayak/" target='_blank'>
+        <div>
+          <BsInstagram />
+        </div>
+      </a>
   </div>
 );
 

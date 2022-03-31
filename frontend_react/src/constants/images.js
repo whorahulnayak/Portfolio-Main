@@ -19,6 +19,7 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import bootstrap from '../assets/bootstrap.png';
 import coding from '../assets/coding.png';
+import mobileApp from '../assets/mobile-app.webp';
 // import coding1 from '../assets/coding.svg';
 
 import about01 from '../assets/about01.png';
@@ -74,4 +75,5 @@ export default {
   spotify,
   bootstrap,
   coding,
+  mobileApp,
 };
